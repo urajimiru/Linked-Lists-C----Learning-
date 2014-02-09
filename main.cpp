@@ -4,19 +4,20 @@ ifstream f("in.txt");
 ofstream g("out.txt");
 
 class list{
-public:
+
 struct node{int nr;
             node *next;};
 node *first, *p, *last;
 int n;
 
-list();
-void insert(int);
-void insert(int, int);
-void remove(int);
-void removeall();
-void sortlist();
-void print();
+public:
+	list();
+	void insert(int);
+	void insert(int, int);
+	void remove(int);
+	void removeall();
+	void sortlist();
+	void print();
 };
 
 list::list()
