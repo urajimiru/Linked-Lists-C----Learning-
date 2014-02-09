@@ -103,6 +103,9 @@ void list::removeall()
  n = 0;
 }
 
+
+// remember to implement qsort instead of this mess
+
 void list::sortlist()
 {node *c;
  int ord, aux;
